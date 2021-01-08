@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #FFCE5B;
+}
+
+.tela-monitor {
+    width: 485px;
+    height: 425px;
+}
+
+.tela-display {
+    width: 485px;
+    height: 345px;
+    background-color: #D0D2D5;
+    border-radius: 15px;
+}
+
+.tela-video {
+    width: 100%;
+    height: 85%;
+    background-color: #676D78;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 40px;
+}
+
+.barra-inferior {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tela-botao {
+    height: 20px;
+    width: 20px;
+    background-color: #3F4349;
+    border-radius: 50%;
+}
+
+.bloco-info {
+    background-color: yellow;
+    width: 325px;
+    height: 100px;
+    margin: 7px 0 7px 0;
+    border-radius: 10px;
+}
+
+.bloco-1 {
+    background-color: #FC6D51;
+}
+
+.bloco-2 {
+    background-color: #AD90E7;
+    width: 35%;
+}
+.bloco-3 {
+    background-color: #49CEAE;
+    width: 65%;
+}
+.bloco-4 {
+    background-color: #609AE6;
+    width: 50%;
+}
+.bloco-5 {
+    background-color: #FFCE5B;
+    width: 70%;
+}
+.bloco-6 {
+    background-color: #EB5466;
+    width: 20%;
+}
+
+.pilar-pe {
+    width: 75px;
+    height: 80px;
+    
+    background-color: #A4A6AD;
+    position: absolute;
+    bottom: 201px;
+    left: 47%;
+}
+
+.pe {
+    width: 126px;
+    height: 20px;
+    
+    background-color: #B1B3B7;
+    position: absolute;
+    bottom: 201px;
+    left: 45%;
+    border-radius: 5px
+}
+
